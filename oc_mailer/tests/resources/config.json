@@ -1,0 +1,15 @@
+{
+    "": {
+        "template_type": "html",
+        "template": "<p>The message text is: ${text}</p>"
+    },
+    "plain.example.com" : {
+        "template_type": "plain",
+        "template_file": "plain.example.com.template.txt"
+    },
+    "html.example.com" : {
+        "template_type": "html",
+        "template_file": "html.example.com.template.html",
+        "signature_image": "html.example.com.signature.png"
+    }
+}

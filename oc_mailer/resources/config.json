@@ -1,0 +1,6 @@
+{
+    "": {
+        "template_type": "plain",
+        "template": "${text}"
+    }
+}
