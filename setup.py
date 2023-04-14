@@ -2,7 +2,7 @@ from setuptools import setup
 import os
 import glob
 
-__version="0.16.0.0"
+__version="0.0.1"
 
 def list_recursive(app, directory, extension="*"):
     dir_to_walk = os.path.join(app, directory)
@@ -19,6 +19,8 @@ spec = {
     "version": __version,
     "license": "LGPLv2",
     "description": "SMTP mailer class for senging auto-notifications with pre-defined templates",
+    "long_description": "",
+    "long_description_content_type": "text/plain",
     "packages": ["oc_mailer"],
     "install_requires": [],
     "package_data": {"oc_mailer": list_recursive("oc_mailer", "resources")},
